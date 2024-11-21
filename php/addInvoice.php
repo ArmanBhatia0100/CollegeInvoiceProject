@@ -10,7 +10,11 @@
 <!-- TODO Add Naviagtion -->
 
 <body>
+
     <div class="container">
+        <?php
+        include "./header.php";
+        ?>
         <div class="form-header">
             <h1 class="title">Invoice Details</h1>
             <div class="invoice-number"><span>#</span>RT3080</div>
