@@ -5,16 +5,14 @@ document.querySelectorAll(".remove-invoice-btn").forEach((button) => {
       try {
         // Use relative path from current location
         const response = await fetch("/jobBoard/php/delete_invoice.php", {
-          // removed /php/ from path
           method: "POST",
           headers: {
             "Content-Type": "application/x-www-form-urlencoded",
           },
           body: `id=${invoiceId}`,
         });
-
         // Debug response
-        console.log("Response status:", response.status);
+        // console.log("Response status:", response.status);
 
         if (response.ok) {
           this.closest(".invoice-item").remove();
