@@ -10,13 +10,13 @@
 
 <body>
     <div class="actions" style="margin:1.5rem 0;">
-        <a href="/jobBoard/php/addUser.php" class="addUser-button">
+        <a href="/InvoiceProject/php/addUser.php" class="addUser-button">
             Add User
         </a>
-        <a href="/jobBoard/php/addInvoice.php" class="new-invoice-button">
+        <a href="/InvoiceProject/php/addInvoice.php" class="new-invoice-button">
             <span>+</span> New Invoice
         </a>
-        <a href="/jobBoard/index.php" class="addUser-button">
+        <a href="/InvoiceProject/index.php" class="addUser-button">
             DashBoard
         </a>
     </div>

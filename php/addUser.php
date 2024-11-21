@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/jobBoard/styles/addUserStyles.css">
+    <link rel="stylesheet" href="/InvoiceProject/styles/addUserStyles.css">
     <title>Invoice App</title>
 </head>
 <!-- TODO Create nav to navigate -->
@@ -12,6 +12,9 @@
 
 <body>
     <div class="container">
+        <?php
+        include "./header.php";
+        ?>
         <div class="form-header">
             <h1 class="title">Create an account</h1>
         </div>

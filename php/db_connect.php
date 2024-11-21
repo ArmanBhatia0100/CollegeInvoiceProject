@@ -2,7 +2,7 @@
 $host = 'localhost';
 $dbname = 'invoice_app';
 $username = 'root';  // default WAMP username
-$password = '';      // default WAMP password
+$password = 'root';      // default WAMP password
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);

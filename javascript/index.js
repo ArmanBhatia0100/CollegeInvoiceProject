@@ -4,7 +4,7 @@ document.querySelectorAll(".remove-invoice-btn").forEach((button) => {
       const invoiceId = Number(this.dataset.id);
       try {
         // Use relative path from current location
-        const response = await fetch("/jobBoard/php/delete_invoice.php", {
+        const response = await fetch("/InvoiceProject/php/delete_invoice.php", {
           method: "POST",
           headers: {
             "Content-Type": "application/x-www-form-urlencoded",

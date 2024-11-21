@@ -42,10 +42,10 @@ try {
             include "./php/header.php";
             ?>
             <!-- <div class="actions">
-                <a href="/jobBoard/php/addUser.php" class="addUser-button">
+                <a href="/InvoiceProject/php/addUser.php" class="addUser-button">
                     Add User
                 </a>
-                <a href="/jobBoard/php/addInvoice.php" class="new-invoice-button">
+                <a href="/InvoiceProject/php/addInvoice.php" class="new-invoice-button">
                     <span>+</span> New Invoice
                 </a>
             </div> -->
