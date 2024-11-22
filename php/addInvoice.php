@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="/InvoiceProject/styles/addInvoiceStyles.css">
     <title>Invoice App</title>
 </head>
-<!-- TODO Add Naviagtion -->
 
 <body>
 
