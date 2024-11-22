@@ -26,7 +26,6 @@ try {
 </head>
 
 
-<!-- TODO Add the name of the user at the top invoice button -->
 <!-- TODO Change the invoice count at the top -->
 
 <body>
@@ -36,19 +35,10 @@ try {
         <div class="header">
             <div>
                 <h1 class="title">Invoices</h1>
-                <p class="subtitle">There are <?php echo $invoice_count; ?> total invoices</p>
             </div>
             <?php
             include "./php/header.php";
             ?>
-            <!-- <div class="actions">
-                <a href="/InvoiceProject/php/addUser.php" class="addUser-button">
-                    Add User
-                </a>
-                <a href="/InvoiceProject/php/addInvoice.php" class="new-invoice-button">
-                    <span>+</span> New Invoice
-                </a>
-            </div> -->
         </div>
 
         <div class="invoice-list">

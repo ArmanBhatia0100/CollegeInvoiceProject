@@ -20,7 +20,7 @@
             <div class="invoice-number"><span>#</span>RT3080</div>
         </div>
 
-        <form>
+        <form action="./FormSubmission/save_invoice.php" method="POST">
             <div class="form-group">
                 <label for="invoice-id">Invoice ID</label>
                 <input type="text" id="invoice-id" class="input-field" value="">
@@ -63,6 +63,7 @@
             </div>
         </form>
     </div>
+    <script src="./../javascript/addInvoice.js"></script>
 </body>
 
 </html>
