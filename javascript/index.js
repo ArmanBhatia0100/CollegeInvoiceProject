@@ -30,3 +30,5 @@ document.querySelectorAll(".remove-invoice-btn").forEach((button) => {
     }
   });
 });
+
+// Search handler
